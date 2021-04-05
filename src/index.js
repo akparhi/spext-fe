@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'rc-slider/assets/index.css';
 import './globals.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';

@@ -1,0 +1,41 @@
+.root :global(.rc-slider-rail) {
+  height: 16px;
+  background: #dedde3;
+  box-shadow: -3px -3px 5px #ffffff, 3px 3px 5px rgba(0, 0, 0, 0.05),
+    inset 3px 3px 5px rgba(0, 0, 0, 0.05), inset -3px -3px 5px #ffffff;
+  border-radius: 37px;
+}
+
+.root :global(.rc-slider-step) {
+  height: 16px;
+}
+
+.root :global(.rc-slider-track) {
+  height: 10px;
+  background: linear-gradient(327.56deg, #5d24d6 19.23%, #7e74ed 81.76%);
+  box-shadow: 0px 2px 3px rgba(43, 72, 180, 0.4),
+    inset 1px 1px 3px rgba(255, 255, 255, 0.4);
+  border-radius: 31px;
+  position: relative;
+  top: 3px;
+  left: 0.5% !important;
+}
+
+.root :global(.rc-slider-handle) {
+  top: -5px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15),
+    inset 10px 10px 10px rgba(0, 0, 0, 0.05), inset -10px -10px 20px #ffffff;
+  border: 21px solid #fff;
+}
+
+.root :global(.rc-slider-handle)::before {
+  content: '';
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: linear-gradient(327.56deg, #5d24d6 19.23%, #7e74ed 81.76%);
+  position: relative;
+  top: -13px;
+  left: -13px;
+}

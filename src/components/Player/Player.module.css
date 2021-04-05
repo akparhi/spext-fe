@@ -1,0 +1,39 @@
+.root {
+  width: 1044px;
+  background: #f7f7f7;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 60px 100px rgba(65, 44, 100, 0.3);
+  border-radius: 60px;
+  z-index: 1;
+
+  position: relative;
+  left: -111px;
+  padding: 50px 112px 75px 191px;
+}
+
+.playerActionsRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.playerActions {
+  display: flex;
+  align-items: center;
+}
+
+.playerAction:not(:first-child) {
+  margin-left: 32px;
+}
+
+.slider {
+  margin-top: 72px;
+}
+
+.timeRow {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

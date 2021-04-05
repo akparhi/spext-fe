@@ -1,0 +1,68 @@
+.root {
+  width: 784px;
+  background: #f8f8f8;
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  box-shadow: 40px 30px 80px rgba(54, 48, 116, 0.3);
+  border-radius: 60px;
+  z-index: 2;
+
+  padding: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.artworkOuter {
+  width: 359px;
+  height: 359px;
+  background: #f8f8f8;
+  border-radius: 40px;
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 20px #ffffff;
+  filter: drop-shadow(-10px -10px 15px #ffffff),
+    drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.05));
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artworkInner {
+  width: 329px;
+  height: 329px;
+  background: #c4c4c4;
+  border-radius: 30px;
+  box-shadow: inset 10px 10px 15px rgba(255, 255, 255, 0.2);
+  filter: drop-shadow(5px 5px 10px rgba(37, 5, 57, 0.51));
+  background: url(../../assets/codex-omega.png);
+}
+
+.albumInfo {
+  margin-left: 45px;
+  padding: 16px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nowPlaying {
+  margin-bottom: 16px;
+}
+
+.songName {
+  color: #86748d;
+}
+
+.albumActions {
+  display: flex;
+  align-items: center;
+}
+
+.playlistAddButton,
+.shareButton {
+  margin-left: 24px;
+}
+
+.filledIcon {
+  color: #968ef1;
+}

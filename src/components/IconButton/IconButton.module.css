@@ -1,0 +1,38 @@
+.root {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  background: #f8f8f8;
+  cursor: pointer;
+  box-shadow: -10px -10px 15px #ffffff, 10px 10px 10px rgba(0, 0, 0, 0.05),
+    inset 10px 10px 10px rgba(0, 0, 0, 0.05), inset -10px -10px 20px #ffffff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #c7c5d0;
+}
+
+.root:hover {
+  box-shadow: -10px -10px 15px #ffffff, 10px 10px 10px rgba(0, 0, 0, 0.05),
+    inset 15px 15px 15px rgba(0, 0, 0, 0.05), inset -10px -10px 20px #ffffff;
+}
+
+.root:active {
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 20px #ffffff;
+}
+
+.noShadows {
+  box-shadow: none;
+}
+
+.noShadows:hover {
+  box-shadow: none;
+}
+
+.noShadows:active {
+  box-shadow: none;
+}

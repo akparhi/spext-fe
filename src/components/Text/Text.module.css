@@ -1,0 +1,28 @@
+.base {
+  color: #aeaeae;
+}
+
+.highlight {
+  color: #aa9bbe;
+}
+
+.normal {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.subtitle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 37px;
+}

@@ -1,5 +1,9 @@
 .frame {
+  position: relative;
   height: 900px;
   width: 2016px;
   background: #e2ddff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
