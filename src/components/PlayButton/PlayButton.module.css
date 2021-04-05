@@ -31,6 +31,24 @@
   font-size: 56px;
 }
 
+.outer:hover {
+  box-shadow: -10px -10px 15px #ffffff, 10px 10px 10px rgba(0, 0, 0, 0.05),
+    inset 15px 15px 15px rgba(0, 0, 0, 0.05), inset -10px -10px 20px #ffffff;
+}
+
+.outer:hover .inner {
+  box-shadow: inset 15px 15px 22.5px rgba(255, 255, 255, 0.2);
+}
+
+.outer:active {
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 20px #ffffff;
+}
+
+.outer:active .inner {
+  box-shadow: inset 10px 10px 15px rgba(255, 255, 255, 0.2);
+}
+
 .small.outer {
   width: 58px;
   height: 58px;
