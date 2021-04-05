@@ -31,8 +31,10 @@
 
 .noShadows:hover {
   box-shadow: none;
+  color: #aa9bbe;
 }
 
 .noShadows:active {
   box-shadow: none;
+  color: #968ef1;
 }

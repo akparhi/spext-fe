@@ -62,8 +62,12 @@ export default function Player({ className }) {
         onChange={setTime}
       />
       <div className={s.timeRow}>
-        <Text>{new Date(time * 1000).toISOString().substr(11, 8)}</Text>
-        <Text>{new Date(songLength * 1000).toISOString().substr(11, 8)}</Text>
+        <Text color="highlight">
+          {new Date(time * 1000).toISOString().substr(11, 8)}
+        </Text>
+        <Text color="highlight">
+          {new Date(songLength * 1000).toISOString().substr(11, 8)}
+        </Text>
       </div>
     </div>
   );
