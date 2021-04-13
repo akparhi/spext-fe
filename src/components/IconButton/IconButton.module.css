@@ -1,6 +1,6 @@
 .root {
-  width: 52px;
-  height: 52px;
+  width: 28px;
+  height: 28px;
   border-radius: 50%;
   border: none;
   background: #f8f8f8;
@@ -13,6 +13,12 @@
   justify-content: center;
 
   color: #c7c5d0;
+  font-size: 14px;
+}
+
+.root svg {
+  width: 16px;
+  height: 16px;
 }
 
 .root:hover {

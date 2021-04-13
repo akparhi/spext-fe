@@ -1,15 +1,15 @@
 .root {
-  width: 1044px;
+  width: 532px;
   background: #f7f7f7;
   border: 1px solid #ffffff;
   box-sizing: border-box;
   box-shadow: 0px 60px 100px rgba(65, 44, 100, 0.3);
-  border-radius: 60px;
+  border-radius: 30px;
   z-index: 1;
 
   position: relative;
-  left: -111px;
-  padding: 50px 112px 75px 191px;
+  left: -55px;
+  padding: 24px 55px 20px 95px;
 }
 
 .playerActionsRow {
@@ -24,16 +24,23 @@
 }
 
 .playerAction:not(:first-child) {
-  margin-left: 32px;
+  margin-left: 16px;
 }
 
 .slider {
-  margin-top: 72px;
+  margin-top: 24px;
 }
 
 .timeRow {
-  margin-top: 16px;
+  margin-top: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.smallDisplay {
+  padding-left: 55px;
+  width: 90%;
+  left: 0;
 }

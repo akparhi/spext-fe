@@ -1,8 +1,8 @@
 .outer {
   border: none;
   cursor: pointer;
-  width: 101px;
-  height: 101px;
+  width: 65px;
+  height: 65px;
   border-radius: 50%;
   background: #f8f8f8;
   box-shadow: -10px -10px 15px #ffffff, 10px 10px 10px rgba(0, 0, 0, 0.05),
@@ -14,8 +14,8 @@
 }
 
 .inner {
-  width: 73px;
-  height: 73px;
+  width: 46px;
+  height: 46px;
   border-radius: 50%;
   background: linear-gradient(327.56deg, #5d24d6 19.23%, #7e74ed 81.76%);
   box-shadow: inset 10px 10px 15px rgba(255, 255, 255, 0.2);
@@ -28,7 +28,7 @@
 
 .inner svg {
   fill: #fff;
-  font-size: 56px;
+  font-size: 36px;
 }
 
 .outer:hover {
@@ -50,15 +50,15 @@
 }
 
 .small.outer {
-  width: 58px;
-  height: 58px;
+  width: 43px;
+  height: 43px;
 }
 
 .small .inner {
-  width: 42px;
-  height: 42px;
+  width: 32px;
+  height: 32px;
 }
 
 .small .inner svg {
-  font-size: 32px;
+  font-size: 24px;
 }
