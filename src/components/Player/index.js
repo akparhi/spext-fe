@@ -5,6 +5,7 @@ import ShuffleRoundedIcon from '@material-ui/icons/ShuffleRounded';
 import RepeatOneRoundedIcon from '@material-ui/icons/RepeatOneRounded';
 import RepeatRoundedIcon from '@material-ui/icons/RepeatRounded';
 import QueueMusicRoundedIcon from '@material-ui/icons/QueueMusicRounded';
+import PlayArrowRoundedIcon from '@material-ui/icons/PlayArrowRounded';
 import PauseRoundedIcon from '@material-ui/icons/PauseRounded';
 import NavigateNextRoundedIcon from '@material-ui/icons/NavigateNextRounded';
 import NavigateBeforeRoundedIcon from '@material-ui/icons/NavigateBeforeRounded';
@@ -31,6 +32,7 @@ export default function Player({
   const songLength = 256 * 60;
   const [time, setTime] = useState(121 * 60);
   const [showSongs, setShowSongs] = useState(false);
+  const [isPaused, setIsPaused] = useState(false);
 
   return (
     <div
@@ -62,9 +64,14 @@ export default function Player({
             <NavigateBeforeRoundedIcon />
           </PlayButton>
 
-          <PlayButton className={s.playerAction}>
-            <PauseRoundedIcon />
+          <PlayButton
+            className={s.playerAction}
+            onClick={() => setIsPaused(!isPaused)}
+            pressed={isPaused}
+          >
+            {isPaused ? <PlayArrowRoundedIcon /> : <PauseRoundedIcon />}
           </PlayButton>
+
           <PlayButton
             small
             className={s.playerAction}

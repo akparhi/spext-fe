@@ -7,10 +7,17 @@ export default function PlayButton({
   className,
   children,
   small = false,
+  pressed = false,
   ...rest
 }) {
   return (
-    <button className={cn(s.outer, className, { [s.small]: small })} {...rest}>
+    <button
+      className={cn(s.outer, className, {
+        [s.small]: small,
+        [s.pressed]: pressed,
+      })}
+      {...rest}
+    >
       <div className={s.inner}>{children}</div>
     </button>
   );
